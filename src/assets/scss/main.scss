@@ -145,7 +145,7 @@ h2 {
 .arrow-right {
   font-size: 40px;
   margin-right: 110px;
-  margin-top: 60px;
+  margin-top: 6px;
   font-weight: 500;
   line-height: 97%;
   font-style: normal;
@@ -354,13 +354,10 @@ hr {
 .item-container {
   min-height: 100vh;
   width: auto;
-  .header-container { 
-    // border: 2px blue solid;
+  .header-container {
     padding: 0 16px 2px 16px;
   }
   .header-search-item {
-    // border: 2px green solid;
-  
     .selected-category {
       font-size: 38px;
       line-height: 37px;
@@ -373,24 +370,20 @@ hr {
       display: flex;
       align-items: center;
       padding-top: 6rem;
-      // border: 2px black solid;
       .subtitle-container {
         letter-spacing: 0.3px;
         font-size: 16px;
         padding-top: 3rem;
-        // border: 2px red solid;
       }
       .icon-item {
         display: flex;
         align-items: center;
         padding-top: 1rem;
-        // border: 2px turquoise solid;
       }
     }
   }
   .container-bottom {
     min-height: 0;
-    // border: 2px palevioletred solid;
     .info {
       display: flex;
       justify-content: space-between;
@@ -417,16 +410,25 @@ hr {
       font-size: 20px;
       @media (min-width: 640px) {
         text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        width: fit-content;
       }
     }
-    
 
     .search-bar-item {
       cursor: pointer;
       display: flex;
       align-items: center;
-      padding: 20px 0 5px 0;
+      padding-top: 20px;
+      padding-bottom: 5px;
       margin-left: 1rem;
+      @media (min-width: 640px) {
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        width: fit-content;
+      }
       .search-item {
         display: flex;
         align-items: center;
@@ -448,30 +450,6 @@ hr {
         height: 20px;
         margin-right: 1rem;
         filter: invert(100%);
-      }
-      @media (min-width: 640px) {
-        // margin-left: auto;  
-        // margin-right: auto;
-        border: 2px turquoise solid;
-        padding: 20px 120px;
-      }
-      @media (min-width: 768px) {
-        padding: 20px 185px;
-        border: 2px red solid;
-      }
-    
-      @media (min-width: 1024px) {
-        padding: 20px 290px;
-      }
-    
-      @media (min-width: 1280px) {
-        padding: 20px 435px;
-        border: 2px green solid;
-      }
-    
-      @media (min-width: 1536px) {
-        padding: 20px 570px;
-        border: 2px blue solid;
       }
     }
   }
