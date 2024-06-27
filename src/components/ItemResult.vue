@@ -20,7 +20,7 @@
        <div class="container-bottom"> 
         <div class="info">
             <p @click="openCategory(selectedItem.containerId)">Find more information about {{ selectedItem.category }} </p>
-            <p class="small-arrow">→</p> 
+            <p @click="openCategory(selectedItem.containerId)" class="small-arrow">→</p> 
         </div>
 
         <p class="subtitle-search-item"> Starting a new search?</p>
