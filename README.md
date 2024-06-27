@@ -56,7 +56,7 @@
 **Developed With**
  - [x] HTML5
  - [x] CSS3
- - [ ] SASS
+ - [x] SASS
  - [x] SCSS
  - [x] JavaScript
  - [x] TypeScriot
@@ -65,7 +65,7 @@
  - [x] Vuex 
  - [ ] Bootstrap
  - [x] npm
- - [ ] Dom
+ - [x] Dom
  - [x] Taildwind
  - [x] json server
 
