@@ -1,0 +1,100 @@
+# BSR
+![1](https://github.com/luciapannunzio/BSR/assets/89199990/30952822-1193-4f03-a521-e7fe0a0fe5ac)
+![2](https://github.com/luciapannunzio/BSR/assets/89199990/67f582b8-3900-4a78-a9df-b8defd4757ff)
+![3](https://github.com/luciapannunzio/BSR/assets/89199990/33300bdd-5715-4665-87be-7df4807b7dd1)
+![4](https://github.com/luciapannunzio/BSR/assets/89199990/9dc5f806-e8e2-40e4-8773-9174ca7191a6)
+![5](https://github.com/luciapannunzio/BSR/assets/89199990/356b9a5e-1a6e-47cf-adb1-e3c5ea7f2fe9)
+![6](https://github.com/luciapannunzio/BSR/assets/89199990/b9743bdc-b20b-4a9e-81f6-1b3b4ee793ed)
+![7](https://github.com/luciapannunzio/BSR/assets/89199990/98997c10-c81d-4bd9-9438-8be5464f12aa)
+![8](https://github.com/luciapannunzio/BSR/assets/89199990/16561766-0dce-4967-b5d9-f349dfa5f3f2)
+![9](https://github.com/luciapannunzio/BSR/assets/89199990/459dac42-98be-48df-8bae-ea9900ad59e8)
+![10](https://github.com/luciapannunzio/BSR/assets/89199990/a920fefd-8a99-40b0-894c-f970cfa4e508)
+![11](https://github.com/luciapannunzio/BSR/assets/89199990/9ddc1615-de8a-4830-9c0e-5e66c2c98e45)
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  * * *
+
+
+**Navigation**
+ - About Project
+    - Description
+    - Developed With
+ - Contact
+    - Mail
+    - GitHub  
+    - LinkedIn
+ - Used Tools
+    - Fonts
+    - Design
+    - Icons
+    - Colors
+
+
+* * *
+
+
+**About Project**
+ - Description
+*Berlin City Cleaning Service (BSR)* - A webpage using Vue, to create an app to learn how to recycle trash in Berlin.
+
+
+* * *
+
+
+**Developed With**
+ - [x] HTML5
+ - [x] CSS3
+ - [ ] SASS
+ - [x] SCSS
+ - [x] JavaScript
+ - [ ] React
+ - [x] Vue
+ - [x] Vuex 
+ - [ ] Bootstrap
+ - [x] npm
+ - [ ] Dom
+ - [x] Taildwind
+ - [x] json server
+
+ 
+ * * *
+ 
+ 
+**Contact**
+
+Mail: [luciapannunzio](https://mail.google.com/mail/u/0/#inbox)
+
+GitHub: [luciapannunzio](https://github.com/luciapannunzio/)
+
+LinkedIn: [luciapannunziovanderwedden](https://www.linkedin.com/in/luciapannunziovanderwedden/)
+
+
+* * *
+
+
+**Used Tools**
+- icons
+- npm
+- Google Fonts
+- Visual Studio Code
+
+
+* * *
+
+
+
+Made by Lucia Pannunzio (✿◠‿◠✿)
