@@ -8,8 +8,6 @@
 ![7](https://github.com/luciapannunzio/BSR/assets/89199990/98997c10-c81d-4bd9-9438-8be5464f12aa)
 ![8](https://github.com/luciapannunzio/BSR/assets/89199990/16561766-0dce-4967-b5d9-f349dfa5f3f2)
 ![9](https://github.com/luciapannunzio/BSR/assets/89199990/459dac42-98be-48df-8bae-ea9900ad59e8)
-![10](https://github.com/luciapannunzio/BSR/assets/89199990/a920fefd-8a99-40b0-894c-f970cfa4e508)
-![11](https://github.com/luciapannunzio/BSR/assets/89199990/9ddc1615-de8a-4830-9c0e-5e66c2c98e45)
 
 
 
@@ -49,7 +47,7 @@
 
 **About Project**
  - Description
-*Berlin City Cleaning Service (BSR)* - A webpage using Vue, to create an app to learn how to recycle trash in Berlin.
+*Berlin City Cleaning Service (BSR)* - A webpage using Vue, to create an app to learn how to recycle garbage in Berlin.
 
 
 * * *
@@ -61,6 +59,7 @@
  - [ ] SASS
  - [x] SCSS
  - [x] JavaScript
+ - [x] TypeScriot
  - [ ] React
  - [x] Vue
  - [x] Vuex 
