@@ -2,13 +2,21 @@
 <img width="430" alt="Screenshot 2025-02-18 at 23 23 44" src="https://github.com/user-attachments/assets/37838d07-32d8-4a19-bfc8-acf5ebc89deb" />
 
 <img width="992" alt="Screenshot 2025-02-18 at 23 23 25" src="https://github.com/user-attachments/assets/66be9f88-dbfd-4092-aab6-e12d8ed66b92" />
+
 ![3](https://github.com/luciapannunzio/BSR/assets/89199990/67f582b8-3900-4a78-a9df-b8defd4757ff)
+
 ![4](https://github.com/luciapannunzio/BSR/assets/89199990/33300bdd-5715-4665-87be-7df4807b7dd1)
+
 ![5](https://github.com/luciapannunzio/BSR/assets/89199990/9dc5f806-e8e2-40e4-8773-9174ca7191a6)
+
 ![6](https://github.com/luciapannunzio/BSR/assets/89199990/356b9a5e-1a6e-47cf-adb1-e3c5ea7f2fe9)
+
 ![7](https://github.com/luciapannunzio/BSR/assets/89199990/b9743bdc-b20b-4a9e-81f6-1b3b4ee793ed)
+
 ![8](https://github.com/luciapannunzio/BSR/assets/89199990/98997c10-c81d-4bd9-9438-8be5464f12aa)
+
 ![9](https://github.com/luciapannunzio/BSR/assets/89199990/16561766-0dce-4967-b5d9-f349dfa5f3f2)
+
 ![10](https://github.com/luciapannunzio/BSR/assets/89199990/459dac42-98be-48df-8bae-ea9900ad59e8)
 
 
