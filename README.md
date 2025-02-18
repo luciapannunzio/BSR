@@ -1,7 +1,7 @@
 # BSR
-![1]<img width="430" alt="Screenshot 2025-02-18 at 23 23 44" src="https://github.com/user-attachments/assets/37838d07-32d8-4a19-bfc8-acf5ebc89deb" />
+<img width="430" alt="Screenshot 2025-02-18 at 23 23 44" src="https://github.com/user-attachments/assets/37838d07-32d8-4a19-bfc8-acf5ebc89deb" />
 
-![2]<img width="992" alt="Screenshot 2025-02-18 at 23 23 25" src="https://github.com/user-attachments/assets/66be9f88-dbfd-4092-aab6-e12d8ed66b92" />
+<img width="992" alt="Screenshot 2025-02-18 at 23 23 25" src="https://github.com/user-attachments/assets/66be9f88-dbfd-4092-aab6-e12d8ed66b92" />
 ![3](https://github.com/luciapannunzio/BSR/assets/89199990/67f582b8-3900-4a78-a9df-b8defd4757ff)
 ![4](https://github.com/luciapannunzio/BSR/assets/89199990/33300bdd-5715-4665-87be-7df4807b7dd1)
 ![5](https://github.com/luciapannunzio/BSR/assets/89199990/9dc5f806-e8e2-40e4-8773-9174ca7191a6)
