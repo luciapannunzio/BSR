@@ -30,7 +30,7 @@ export const useFetchContainers = () => {
   const categories = computed(() => containersList.value);
 
   const fetchContainers = () => {
-    fetch("https://bsr-ebon.vercel.app/containersList")
+    fetch("http://localhost:3000/containersList")
       .then((response) => response.json())
       .then((data) => {
         containersList.value = data;
@@ -41,7 +41,7 @@ export const useFetchContainers = () => {
   };
 
   const fetchContainerDetail = (id: string) => {
-    fetch(`https://bsr-ebon.vercel.app/containers/${id}`)
+    fetch(`http://localhost:3000/containers/${id}`)
       .then((response) => response.json())
       .then((data) => {
         container.value = data;
@@ -52,7 +52,7 @@ export const useFetchContainers = () => {
   };
 
   const fetchSearchItems = () => {
-    fetch("https://bsr-ebon.vercel.app/searchItems")
+    fetch("http://localhost:3000/searchItems")
       .then((response) => response.json())
       .then((data) => {
         searchItems.value = data;
@@ -63,7 +63,7 @@ export const useFetchContainers = () => {
   };
 
   const fetchSearchItemsById = (id: string) => {
-    fetch(`https://bsr-ebon.vercel.app/searchItems/${id}`)
+    fetch(`http://localhost:3000/searchItems/${id}`)
       .then((response) => response.json())
       .then((data) => {
         selectedItem.value = data;
