@@ -8,7 +8,7 @@
                 <p class="selected-category">{{ selectedItem.itemName }}</p>
 
             <div class="subtitle-icon-container">
-                <p class="subtitle-container">This item belongs to the {{ selectedItem.subtitle }} </p>
+                <p class="subtitle-container">This item belongs in the {{ selectedItem.subtitle }} </p>
 
                 <div class="icon-item"><img v-if="selectedItem.icon" class="header-icon"
                         :src="require(`@/assets/icons/${selectedItem.icon}`)" alt="Icon" /></div>
@@ -19,15 +19,15 @@
         <hr>
        <div class="container-bottom"> 
         <div class="info">
-            <p @click="openCategory(selectedItem.containerId)">Find more information about {{ selectedItem.category }} </p>
+            <p @click="openCategory(selectedItem.containerId)">Discover what else belongs in the {{ selectedItem.category }} </p>
             <p @click="openCategory(selectedItem.containerId)" class="small-arrow">→</p> 
         </div>
 
-        <p class="subtitle-search-item"> Starting a new search?</p>
+        <p class="subtitle-search-item">Looking for another item?</p>
         <div class="search-bar-item" @click="goToSearch">
             <span class="search-item">
                 <img src="@/assets/icons/search-icon.svg" alt="search-icon" class="search-icon" />
-                Search me...</span>
+                Search for an item...</span>
         </div>
     </div>
 </div>

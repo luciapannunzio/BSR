@@ -29,8 +29,7 @@ body {
 
 @font-face {
   font-family: "NeueMontreal";
-  src: url("@/assets/fonts/neue-montreal/PPNeueMontreal-Medium.woff")
-    format("woff");
+  src: url("@/assets/fonts/neue-montreal/PPNeueMontreal-Medium.woff") format("woff");
 }
 
 //--------------------------------------------------------
@@ -42,7 +41,7 @@ body {
   flex-direction: column;
   align-items: center;
   height: 100vh;
-  padding: 10px;
+  padding: 15px;
 }
 
 .row {
@@ -57,13 +56,16 @@ body {
       flex: 1 1 calc(50% - 4px);
       max-width: calc(50% - 4px);
       margin: 2px;
+      padding-left: 10px;
     }
+
     .cube {
       width: 10rem;
       height: 10rem;
     }
   }
-  @media (min-width: 640px) {
+
+  @media (min-width: 440px) {
     padding: 20px 100px;
   }
 
@@ -97,7 +99,7 @@ body {
   height: 10rem;
   padding: 10px;
   text-align: center;
-  border-radius: 20px;
+  border-radius: 16px;
   font-weight: bold;
   color: var(--light);
 }
@@ -109,19 +111,26 @@ h1 {
   font-family: "Formula";
   display: flex;
   align-items: center;
-  @media (min-width: 768px) {
-    padding-top: 60px;
+
+  @media (min-width: 375px) {
+    padding-left: 8px;
+  }
+  @media (max-width: 414px) {
+    padding-left: 10px;
+  }
+  @media (min-width: 430px) {
+    padding-left: 7px;
   }
   @media (min-width: 768px) {
-    padding-left: 70px;
+    padding-left: 60px;
   }
   @media (min-width: 820px) {
-    padding-top: 100px;
-    padding-left: 40px;
+    padding-top: 80px;
+    padding-right: 70px;
   }
   @media (min-width: 1024px) {
     padding-top: 70px;
-    padding-left: 70px;
+    padding-left: 80px;
   }
 }
 
@@ -130,18 +139,29 @@ h2 {
   padding: 10px;
   color: var(--dark-black);
   font-family: "NeueMontreal";
+
+  @media (min-width: 375px) {
+    padding-right: 22px;
+  }
+  @media (min-width: 390px) {
+    padding-right: 5px;
+  }
+  @media (max-width: 414px) {
+    padding-right: 58px;
+  }
   @media (min-width: 430px) {
-    padding-left: 15px;
+    padding-right: 84px;
   }
   @media (min-width: 768px) {
-    padding-left: 170px;
+    padding-right: 90px;
   }
   @media (min-width: 820px) {
-    padding-right: 45px;
+    padding-right: 120px;
   }
   @media (min-width: 1024px) {
-    padding-left: 200px;
+    padding-right: 99px;
   }
+
 }
 
 .subtitle {
@@ -149,66 +169,84 @@ h2 {
   color: var(--dark-black);
   font-family: "NeueMontreal";
   text-transform: uppercase;
+
   @media (min-width: 375px) {
-    padding-left: 6px;
+    padding-right: 20px;
   }
-  @media (min-width: 390px) {
-    padding-left: 8px;
-    font-size: 14px;
+  @media (max-width: 430px) {
+    padding-right: 18px;
   }
-  @media (min-width: 414px) {
-    padding-right: 170px;
+  @media (min-width: 768px) {
+    padding-right: 5px;
   }
-  @media (min-width: 430px) {
-    padding-right: 180px;
+  @media (min-width: 820px) {
+    padding-right: 20px;
   }
-    @media (min-width: 820px) {
-    padding-right: 220px;
+  @media (max-width: 1024px) {
+    padding-left: 4px;
   }
   @media (min-width: 1024px) {
-    padding-right: 180px;
+    padding-right: 20px;
   }
 }
+
 .subtitle-search {
   padding: 15px 95px 10px 0;
   color: var(--dark-black);
   font-family: "NeueMontreal";
   text-transform: uppercase;
+
   @media (min-width: 375px) {
-    padding-left: 10px;
+    padding-right: 20px;
   }
-  @media (min-width: 390px) {
-    padding-left: 10px;
-    font-size: 14px;
-  }
-  @media (min-width: 414px) {
-    padding-right: 120px;
-  }
-  @media (min-width: 430px) {
-    padding-right: 130px;
+  @media (max-width: 430px) {
+    padding-right: 18px;
   }
   @media (min-width: 768px) {
-    padding-top: 60px;
+    padding-right: 5px;
   }
   @media (min-width: 820px) {
-    padding-top: 60px;
-    padding-right: 150px;
+    padding-right: 20px;
+  }
+  @media (max-width: 1024px) {
+    padding-left: 4px;
   }
   @media (min-width: 1024px) {
-    padding-top: 60px;
-    padding-right: 150px;
+    padding-right: 20px;
   }
 }
 
 .category {
   font-family: "Formula";
-  font-size: 39px;
+  font-size: 30px;
   font-weight: 500;
   line-height: 95%;
   letter-spacing: -1.17px;
   font-style: normal;
   color: var(--light);
   padding: 10px 70px 0 0;
+
+  @media (min-width: 375px) {
+    font-size: 25px;
+  }
+  @media (min-width: 390px) {
+    font-size: 30px;
+  }
+  @media (min-width: 414px) {
+    font-size: 30px;
+  }
+  @media (min-width: 430px) {
+    font-size: 30px;
+  }
+  @media (min-width: 768px) {
+    font-size: 30px;
+  }
+  @media (min-width: 820px) {
+    font-size: 31px;
+  }
+  @media (min-width: 1024px) {
+    font-size: 33px;
+  }
 }
 
 .arrow-right {
@@ -226,23 +264,20 @@ h2 {
   display: flex;
   align-items: center;
   padding: 6px 30px 15px 0;
-  @media (min-width: 375px) {
-    padding-left: 40px;
+  @media (max-width: 430px) {
+    padding-right: 5px;
   }
-  @media (min-width: 390px) {
-    padding-left: 34px;
-  }
-  @media (min-width: 414px) {
-    padding-left: 10px;
-  }
-  @media (min-width: 430px) {
-    padding-left: 1px;
+  @media (min-width: 768px) {
+    padding-right: 5px;
   }
   @media (min-width: 820px) {
-    padding-right: 50px;
+    padding-right: 20px;
+  }
+  @media (max-width: 1024px) {
+    padding-left: 4px;
   }
   @media (min-width: 1024px) {
-    padding-right: 50px;
+    padding-right: 20px;
   }
 
   .search-me {
@@ -260,12 +295,14 @@ h2 {
     margin-bottom: 0.5rem;
     font-size: 20px;
   }
+
   .search {
     width: 20px;
     height: 20px;
     margin-right: 10px;
   }
 }
+
 //--------------------------------------------------------
 // Containers Detail
 //--------------------------------------------------------
@@ -280,23 +317,27 @@ h2 {
   align-items: center;
   margin-bottom: 2rem;
   padding: 12px 22px;
+
   .selected-category {
     margin-top: 10px;
     margin-bottom: 3px;
     font-size: 39px;
     font-weight: 500;
   }
+
   .subtitle-container {
     font-size: 16px;
     font-weight: 400;
     line-height: 15.5px;
   }
+
   .arrow-left {
     cursor: pointer;
     width: 2rem;
     filter: invert(100%);
     margin-top: 15px;
   }
+
   .header-text {
     display: flex;
     flex-direction: column;
@@ -335,6 +376,7 @@ hr {
   flex-wrap: wrap;
   padding: 0 22px;
   align-items: flex-start;
+
   .bubble-b {
     display: flex;
     align-items: center;
@@ -343,18 +385,22 @@ hr {
     border: 1px solid var(--light);
     padding: 4px 8px;
     margin: 4px;
+
     p {
       margin: 0;
       padding: 0;
+
       &.dot {
         border-radius: 50%;
         width: 12px;
         height: 12px;
         margin-right: 8px;
+
         &.dot-green {
           color: var(--green-fluo);
           background-color: var(--green-fluo);
         }
+
         &.dot-red {
           color: var(--red);
           background-color: var(--red);
@@ -373,6 +419,7 @@ hr {
   width: auto;
   background-color: var(--grey-search);
   color: var(--dark-grey);
+
   .search-text {
     padding: 20px 0;
     font-size: 24px;
@@ -381,6 +428,7 @@ hr {
     font-family: "NeueMontreal";
     color: var(--dark-black);
   }
+
   input.search-input {
     background-color: var(--grey-search);
     border: none;
@@ -390,6 +438,7 @@ hr {
     font-family: "NeueMontreal";
     font-size: 65px;
   }
+
   input.search-input:focus {
     outline: none;
     border-bottom: 2px solid var(--dark-black);
@@ -415,6 +464,7 @@ hr {
       cursor: pointer;
     }
   }
+
   .search-result,
   .search-no-result {
     padding: 10px 20px;
@@ -422,6 +472,7 @@ hr {
     display: flex;
     flex-wrap: wrap;
   }
+
   .search-result-bubble {
     display: flex;
     align-items: center;
@@ -432,6 +483,7 @@ hr {
     padding: 4px 8px;
     margin: 4px;
     width: fit-content;
+    cursor: pointer;
   }
 }
 
@@ -442,9 +494,11 @@ hr {
 .item-container {
   min-height: 100vh;
   width: auto;
+
   .header-container {
     padding: 0 16px 2px 16px;
   }
+
   .header-search-item {
     .selected-category {
       font-size: 38px;
@@ -458,11 +512,13 @@ hr {
       display: flex;
       align-items: center;
       padding-top: 6rem;
+
       .subtitle-container {
         letter-spacing: 0.3px;
         font-size: 16px;
         padding-top: 3rem;
       }
+
       .icon-item {
         display: flex;
         align-items: center;
@@ -470,8 +526,10 @@ hr {
       }
     }
   }
+
   .container-bottom {
     min-height: 0;
+
     .info {
       display: flex;
       justify-content: space-between;
@@ -483,6 +541,7 @@ hr {
       letter-spacing: 0.3px;
       cursor: pointer;
     }
+
     .small-arrow {
       font-size: 20px;
       padding-right: 1rem;
@@ -517,6 +576,7 @@ hr {
         margin-right: auto;
         width: fit-content;
       }
+
       .search-item {
         display: flex;
         align-items: center;
@@ -533,6 +593,7 @@ hr {
         margin-bottom: 0.5rem;
         font-size: 20px;
       }
+
       .search-icon {
         width: 20px;
         height: 20px;

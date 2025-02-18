@@ -11,12 +11,12 @@
         </div>
 
         <div class="text-container">
-            <p>{{ container.text }}</p>
-        </div>
+            <p>{{ container.text }}</p>  
+        </div> 
 
         <div class="container-b-nb">
             <hr>
-            <p class="b-nb">What belongs here</p>
+            <p class="b-nb">These belong here</p>
             <div class="belongs">
                 <div class="bubble-b" v-for="(item, index) in container?.itemsYes" :key="index">
                     <p class="dot-green dot"></p>
@@ -25,7 +25,7 @@
             </div>
 
             <hr>
-            <p class="b-nb">What does not</p>
+            <p class="b-nb">These do not</p>
             <div class="not-belongs">
                 <div class="bubble-b" v-for="(item, index) in container?.itemsNo" :key="index">
                     <p class="dot-red dot"></p>
