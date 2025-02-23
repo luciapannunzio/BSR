@@ -69,7 +69,7 @@
  - [x] SASS
  - [x] SCSS
  - [x] JavaScript
- - [x] TypeScriot
+ - [x] TypeScript
  - [ ] React
  - [x] Vue
  - [x] Vuex 
