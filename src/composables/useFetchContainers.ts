@@ -21,6 +21,10 @@ export interface SearchItem {
   itemName: string;
 }
 
+const API_URL = process.env.VUE_APP_API_URL;  // Usar la URL de la API desde el archivo .env.local
+
+console.log('API URL:', API_URL);
+
 export const useFetchContainers = () => {
   // Store containers
   const containersList = ref<Container[]>([]);
@@ -30,7 +34,7 @@ export const useFetchContainers = () => {
   const categories = computed(() => containersList.value);
 
   const fetchContainers = () => {
-    fetch("http://localhost:3000/containersList")
+    fetch(`${API_URL}/containersList`)
       .then((response) => response.json())
       .then((data) => {
         containersList.value = data;
@@ -41,7 +45,7 @@ export const useFetchContainers = () => {
   };
 
   const fetchContainerDetail = (id: string) => {
-    fetch(`http://localhost:3000/containers/${id}`)
+    fetch(`${API_URL}/containers/${id}`)
       .then((response) => response.json())
       .then((data) => {
         container.value = data;
@@ -52,7 +56,7 @@ export const useFetchContainers = () => {
   };
 
   const fetchSearchItems = () => {
-    fetch("http://localhost:3000/searchItems")
+    fetch(`${API_URL}/searchItems`)
       .then((response) => response.json())
       .then((data) => {
         searchItems.value = data;
@@ -63,7 +67,7 @@ export const useFetchContainers = () => {
   };
 
   const fetchSearchItemsById = (id: string) => {
-    fetch(`http://localhost:3000/searchItems/${id}`)
+    fetch(`${API_URL}/searchItems/${id}`)
       .then((response) => response.json())
       .then((data) => {
         selectedItem.value = data;
