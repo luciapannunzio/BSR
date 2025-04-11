@@ -37,7 +37,7 @@
 
 import { onMounted } from 'vue';
 import { useRouter, useRoute } from 'vue-router';
-import { useFetchContainers } from '@/composables/useFetchContainers';
+import { useFetchContainers } from '@/composable/useFetchContainers';
 
 const { selectedItem, fetchSearchItemsById } = useFetchContainers();
 const router = useRouter();

@@ -22,7 +22,7 @@
 </template>
 
 <script setup lang="ts">
-import { useFetchContainers } from '@/composables/useFetchContainers';
+import { useFetchContainers } from '@/composable/useFetchContainers';
 import { onMounted } from 'vue';
 import { useRouter } from 'vue-router';
 

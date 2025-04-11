@@ -38,7 +38,7 @@
 </template>
 
 <script setup lang="ts">
-import { useFetchContainers } from '@/composables/useFetchContainers';
+import { useFetchContainers } from '@/composable/useFetchContainers';
 import { watchEffect } from 'vue';
 import { useRoute, useRouter } from 'vue-router';
 

@@ -28,7 +28,7 @@
 <script setup lang="ts">
 import { ref, computed, onMounted } from 'vue';
 import { useRouter } from 'vue-router';
-import { useFetchContainers, SearchItem } from '@/composables/useFetchContainers';
+import { useFetchContainers, SearchItem } from '@/composable/useFetchContainers';
 
 const router = useRouter();
 const { searchItems, fetchSearchItems } = useFetchContainers();
