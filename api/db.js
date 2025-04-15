@@ -2,7 +2,7 @@ import fs from 'fs';
 import path from 'path';
 
 export default function handler(req, res) {
-  const filePath = path.join(process.cwd(), 'public/db.json');
+  const filePath = path.join(process.cwd(), 'db.json');
   const db = JSON.parse(fs.readFileSync(filePath, 'utf8'));
 
   if (req.url.includes('containersList')) {
