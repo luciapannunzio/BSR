@@ -1,0 +1,605 @@
+:root {
+  --light: #eee;
+  --grey: #888;
+  --dark-black: #1b1b1b;
+  --green-fluo: #33ff00;
+  --red: #ff0000;
+  --dark-grey: #1b1b1b73;
+  --grey-search: #d1d1d1;
+  --grey-light: #eaeaea;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "formula", "NeueMontreal";
+}
+
+body {
+  background: var(--grey-light);
+  color: var(--light);
+  letter-spacing: 0.02rem;
+}
+
+@font-face {
+  font-family: "Formula";
+  src: url("@/assets/fonts/formula/PPFormula-Regular.woff") format("woff");
+}
+
+@font-face {
+  font-family: "NeueMontreal";
+  src: url("@/assets/fonts/neue-montreal/PPNeueMontreal-Medium.woff") format("woff");
+}
+
+//--------------------------------------------------------
+// Containers View
+//--------------------------------------------------------
+
+.container-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  padding: 15px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 100%;
+  margin-bottom: 20px;
+
+  @media (max-width: 414px) {
+    .column {
+      flex: 1 1 calc(50% - 4px);
+      max-width: calc(50% - 4px);
+      margin: 2px;
+      padding-left: 10px;
+    }
+
+    .cube {
+      width: 10rem;
+      height: 10rem;
+    }
+  }
+
+  @media (min-width: 440px) {
+    padding: 20px 100px;
+  }
+
+  @media (min-width: 768px) {
+    padding: 20px 165px;
+  }
+
+  @media (min-width: 1024px) {
+    padding: 20px 290px;
+  }
+
+  @media (min-width: 1280px) {
+    padding: 20px 415px;
+  }
+
+  @media (min-width: 1536px) {
+    padding: 20px 540px;
+  }
+}
+
+.column {
+  padding: 4px;
+}
+
+.cube {
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  width: 12rem;
+  height: 10rem;
+  padding: 10px;
+  text-align: center;
+  border-radius: 16px;
+  font-weight: bold;
+  color: var(--light);
+}
+
+h1 {
+  font-size: 34px;
+  padding: 5px 45px;
+  color: var(--dark-black);
+  font-family: "Formula";
+  display: flex;
+  align-items: center;
+
+  @media (min-width: 375px) {
+    padding-left: 8px;
+  }
+  @media (max-width: 414px) {
+    padding-left: 10px;
+  }
+  @media (min-width: 430px) {
+    padding-left: 7px;
+  }
+  @media (min-width: 768px) {
+    padding-left: 60px;
+  }
+  @media (min-width: 820px) {
+    padding-top: 80px;
+    padding-right: 70px;
+  }
+  @media (min-width: 1024px) {
+    padding-top: 70px;
+    padding-left: 80px;
+  }
+}
+
+h2 {
+  font-size: 18px;
+  padding: 10px;
+  color: var(--dark-black);
+  font-family: "NeueMontreal";
+
+  @media (min-width: 375px) {
+    padding-right: 22px;
+  }
+  @media (min-width: 390px) {
+    padding-right: 5px;
+  }
+  @media (max-width: 414px) {
+    padding-right: 58px;
+  }
+  @media (min-width: 430px) {
+    padding-right: 84px;
+  }
+  @media (min-width: 768px) {
+    padding-right: 90px;
+  }
+  @media (min-width: 820px) {
+    padding-right: 120px;
+  }
+  @media (min-width: 1024px) {
+    padding-right: 99px;
+  }
+
+}
+
+.subtitle {
+  padding: 15px 150px 10px 0;
+  color: var(--dark-black);
+  font-family: "NeueMontreal";
+  text-transform: uppercase;
+
+  @media (min-width: 375px) {
+    padding-right: 20px;
+  }
+  @media (max-width: 430px) {
+    padding-right: 18px;
+  }
+  @media (min-width: 768px) {
+    padding-right: 5px;
+  }
+  @media (min-width: 820px) {
+    padding-right: 20px;
+  }
+  @media (max-width: 1024px) {
+    padding-left: 4px;
+  }
+  @media (min-width: 1024px) {
+    padding-right: 20px;
+  }
+}
+
+.subtitle-search {
+  padding: 15px 95px 10px 0;
+  color: var(--dark-black);
+  font-family: "NeueMontreal";
+  text-transform: uppercase;
+
+  @media (min-width: 375px) {
+    padding-right: 20px;
+  }
+  @media (max-width: 430px) {
+    padding-right: 18px;
+  }
+  @media (min-width: 768px) {
+    padding-right: 5px;
+  }
+  @media (min-width: 820px) {
+    padding-right: 20px;
+  }
+  @media (max-width: 1024px) {
+    padding-left: 4px;
+  }
+  @media (min-width: 1024px) {
+    padding-right: 20px;
+  }
+}
+
+.category {
+  font-family: "Formula";
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 95%;
+  letter-spacing: -1.17px;
+  font-style: normal;
+  color: var(--light);
+  padding: 10px 70px 0 0;
+
+  @media (min-width: 375px) {
+    font-size: 25px;
+  }
+  @media (min-width: 390px) {
+    font-size: 30px;
+  }
+  @media (min-width: 414px) {
+    font-size: 30px;
+  }
+  @media (min-width: 430px) {
+    font-size: 30px;
+  }
+  @media (min-width: 768px) {
+    font-size: 30px;
+  }
+  @media (min-width: 820px) {
+    font-size: 31px;
+  }
+  @media (min-width: 1024px) {
+    font-size: 33px;
+  }
+}
+
+.arrow-right {
+  font-size: 40px;
+  margin-right: 110px;
+  margin-top: 6px;
+  font-weight: 500;
+  line-height: 97%;
+  font-style: normal;
+  color: var(--light);
+}
+
+.search-bar {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  padding: 6px 30px 15px 0;
+  @media (max-width: 430px) {
+    padding-right: 5px;
+  }
+  @media (min-width: 768px) {
+    padding-right: 5px;
+  }
+  @media (min-width: 820px) {
+    padding-right: 20px;
+  }
+  @media (max-width: 1024px) {
+    padding-left: 4px;
+  }
+  @media (min-width: 1024px) {
+    padding-right: 20px;
+  }
+
+  .search-me {
+    display: flex;
+    align-items: center;
+    font-family: "NeueMontreal";
+    width: 360px;
+    height: 40px;
+    padding: 2px 0 0 55px;
+    border-radius: 20px;
+    border: 1px solid var(--dark-black);
+    color: var(--dark-grey);
+    font-weight: 400;
+    line-height: 22.8px;
+    margin-bottom: 0.5rem;
+    font-size: 20px;
+  }
+
+  .search {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+  }
+}
+
+//--------------------------------------------------------
+// Containers Detail
+//--------------------------------------------------------
+
+.container {
+  min-height: 100vh;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+  padding: 12px 22px;
+
+  .selected-category {
+    margin-top: 10px;
+    margin-bottom: 3px;
+    font-size: 39px;
+    font-weight: 500;
+  }
+
+  .subtitle-container {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 15.5px;
+  }
+
+  .arrow-left {
+    cursor: pointer;
+    width: 2rem;
+    filter: invert(100%);
+    margin-top: 15px;
+  }
+
+  .header-text {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.header-icon {
+  width: 5rem;
+}
+
+.text-container {
+  padding: 0 22px;
+  font-size: 18px;
+}
+
+.container-b-nb {
+  .b-nb {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 22.8px;
+    padding: 4px 22px;
+    text-transform: uppercase;
+  }
+}
+
+hr {
+  border: 1px solid var(--light);
+  margin: 16px;
+}
+
+.belongs,
+.not-belongs {
+  display: flex;
+  font-weight: 400;
+  font-size: 1rem;
+  flex-wrap: wrap;
+  padding: 0 22px;
+  align-items: flex-start;
+
+  .bubble-b {
+    display: flex;
+    align-items: center;
+    color: var(--light);
+    border-radius: 20px;
+    border: 1px solid var(--light);
+    padding: 4px 8px;
+    margin: 4px;
+
+    p {
+      margin: 0;
+      padding: 0;
+
+      &.dot {
+        border-radius: 50%;
+        width: 12px;
+        height: 12px;
+        margin-right: 8px;
+
+        &.dot-green {
+          color: var(--green-fluo);
+          background-color: var(--green-fluo);
+        }
+
+        &.dot-red {
+          color: var(--red);
+          background-color: var(--red);
+        }
+      }
+    }
+  }
+}
+
+//--------------------------------------------------------
+// Search Items
+//--------------------------------------------------------
+
+.body-search {
+  min-height: 100vh;
+  width: auto;
+  background-color: var(--grey-search);
+  color: var(--dark-grey);
+
+  .search-text {
+    padding: 20px 0;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 23.28px;
+    font-family: "NeueMontreal";
+    color: var(--dark-black);
+  }
+
+  input.search-input {
+    background-color: var(--grey-search);
+    border: none;
+    border-bottom: 2px solid var(--dark-grey);
+    padding: 8px;
+    width: 100%;
+    font-family: "NeueMontreal";
+    font-size: 65px;
+  }
+
+  input.search-input:focus {
+    outline: none;
+    border-bottom: 2px solid var(--dark-black);
+  }
+
+  .header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+    padding: 12px 22px;
+
+    .header-search {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+    }
+
+    .arrow-black {
+      color: var(--dark-black);
+      width: 2rem;
+      margin-top: 15px;
+      cursor: pointer;
+    }
+  }
+
+  .search-result,
+  .search-no-result {
+    padding: 10px 20px;
+    color: var(--dark-black);
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .search-result-bubble {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--dark-black);
+    border-radius: 20px;
+    border: 1px solid var(--dark-black);
+    padding: 4px 8px;
+    margin: 4px;
+    width: fit-content;
+    cursor: pointer;
+  }
+}
+
+//--------------------------------------------------------
+// Items Result
+//--------------------------------------------------------
+
+.item-container {
+  min-height: 100vh;
+  width: auto;
+
+  .header-container {
+    padding: 0 16px 2px 16px;
+  }
+
+  .header-search-item {
+    .selected-category {
+      font-size: 38px;
+      line-height: 37px;
+      font-weight: 500;
+      font-family: "Formula";
+      letter-spacing: 1px;
+    }
+
+    .subtitle-icon-container {
+      display: flex;
+      align-items: center;
+      padding-top: 6rem;
+
+      .subtitle-container {
+        letter-spacing: 0.3px;
+        font-size: 16px;
+        padding-top: 3rem;
+      }
+
+      .icon-item {
+        display: flex;
+        align-items: center;
+        padding-top: 1rem;
+      }
+    }
+  }
+
+  .container-bottom {
+    min-height: 0;
+
+    .info {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      color: var(--light);
+      padding-bottom: 1rem;
+      padding-left: 1rem;
+      font-size: 13px;
+      letter-spacing: 0.3px;
+      cursor: pointer;
+    }
+
+    .small-arrow {
+      font-size: 20px;
+      padding-right: 1rem;
+    }
+
+    .subtitle-search-item {
+      padding: 15px 0 2px 0;
+      color: var(--light);
+      font-family: "NeueMontreal";
+      margin-left: 1.2rem;
+      margin-top: 25rem;
+      letter-spacing: 0.3px;
+      font-size: 20px;
+      @media (min-width: 640px) {
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        width: fit-content;
+      }
+    }
+
+    .search-bar-item {
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      padding-top: 20px;
+      padding-bottom: 5px;
+      margin-left: 1rem;
+      @media (min-width: 640px) {
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        width: fit-content;
+      }
+
+      .search-item {
+        display: flex;
+        align-items: center;
+        font-family: "NeueMontreal";
+        width: 360px;
+        height: 40px;
+        padding: 2px 0 0 55px;
+        border-radius: 20px;
+        border: 1px solid var(--light);
+        color: var(--light);
+        font-weight: 400;
+        line-height: 22.8px;
+        letter-spacing: 0.3px;
+        margin-bottom: 0.5rem;
+        font-size: 20px;
+      }
+
+      .search-icon {
+        width: 20px;
+        height: 20px;
+        margin-right: 1rem;
+        filter: invert(100%);
+      }
+    }
+  }
+}
