@@ -21,7 +21,7 @@ export interface SearchItem {
   itemName: string;
 }
 
-const API_URL = '/api'; 
+const API_URL = process.env.VUE_APP_API_URL; 
 
 console.log('API URL:', API_URL);
 
