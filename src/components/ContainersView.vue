@@ -1,9 +1,7 @@
  <template>
   <div class="container-list">
     <h1>Recycling made simple</h1>
-    <h2>Learn how to separate waste properly <br> and help keep our planet green</h2>
-<!-- <h2>Sort your waste/trash correctly. Help keep our planet green</h2> -->
-    <p class="subtitle">What goes in each bin?</p>
+    <p class="subtitle">Learn how to separate waste properly</p>
     <div class="row">
       <div class="column" v-for="(category, index) in categories" :key="index">
         <div class="cube" :style="{ backgroundColor: category.color }" @click="openCube(category.id)">

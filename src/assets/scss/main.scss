@@ -134,38 +134,9 @@ h1 {
   }
 }
 
-h2 {
-  font-size: 18px;
-  padding: 10px;
-  color: var(--dark-black);
-  font-family: "NeueMontreal";
-
-  @media (min-width: 375px) {
-    padding-right: 22px;
-  }
-  @media (min-width: 390px) {
-    padding-right: 5px;
-  }
-  @media (max-width: 414px) {
-    padding-right: 58px;
-  }
-  @media (min-width: 430px) {
-    padding-right: 84px;
-  }
-  @media (min-width: 768px) {
-    padding-right: 90px;
-  }
-  @media (min-width: 820px) {
-    padding-right: 120px;
-  }
-  @media (min-width: 1024px) {
-    padding-right: 99px;
-  }
-
-}
 
 .subtitle {
-  padding: 15px 150px 10px 0;
+  padding: 54px 150px 16px 0;
   color: var(--dark-black);
   font-family: "NeueMontreal";
   text-transform: uppercase;
@@ -191,7 +162,7 @@ h2 {
 }
 
 .subtitle-search {
-  padding: 15px 95px 10px 0;
+  padding: 44px 95px 26px 0;
   color: var(--dark-black);
   font-family: "NeueMontreal";
   text-transform: uppercase;
