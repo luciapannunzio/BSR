@@ -1,7 +1,7 @@
 # BSR
-<img width="430" alt="Screenshot 2025-02-18 at 23 23 44" src="https://github.com/user-attachments/assets/37838d07-32d8-4a19-bfc8-acf5ebc89deb" />
+<img width="1024" alt="Screenshot 2025-04-24 at 15 07 33" src="https://github.com/user-attachments/assets/cd6f0e85-7baf-429d-b8c6-8fe8c19972a7" />
 
-<img width="992" alt="Screenshot 2025-02-18 at 23 23 25" src="https://github.com/user-attachments/assets/66be9f88-dbfd-4092-aab6-e12d8ed66b92" />
+<img width="956" alt="Screenshot 2025-04-24 at 15 08 00" src="https://github.com/user-attachments/assets/1d18c077-769d-451e-bdfa-a0a33c17431d" />
 
 ![3](https://github.com/luciapannunzio/BSR/assets/89199990/67f582b8-3900-4a78-a9df-b8defd4757ff)
 
