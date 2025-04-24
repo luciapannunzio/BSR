@@ -1,5 +1,4 @@
 # BSR
-<img width="1024" alt="Screenshot 2025-04-24 at 15 07 33" src="https://github.com/user-attachments/assets/cd6f0e85-7baf-429d-b8c6-8fe8c19972a7" />
 
 <img width="956" alt="Screenshot 2025-04-24 at 15 08 00" src="https://github.com/user-attachments/assets/1d18c077-769d-451e-bdfa-a0a33c17431d" />
 
